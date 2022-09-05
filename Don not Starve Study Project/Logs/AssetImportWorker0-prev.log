@@ -1,0 +1,1412 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/Game-Project-1/Don not Starve Study Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55417
+Successfully changed project path to: D:/GitHub/Game-Project-1/Don not Starve Study Project
+D:/GitHub/Game-Project-1/Don not Starve Study Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 104.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Game-Project-1/Don not Starve Study Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011986 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 92.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004815 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1364ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (563ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.7 KB). Loaded Objects now: 3836.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 3.585700 ms (FindLiveObjects: 0.641600 ms CreateObjectMapping: 0.305600 ms MarkObjects: 2.526300 ms  DeleteObjects: 0.110800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4861.297925 seconds.
+  path: Assets/Res/森林/demo scene/Demo Scene Adventure Forest.unity
+  artifactKey: Guid(c0bec6a40db1a314fa4c100dc7e770a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/demo scene/Demo Scene Adventure Forest.unity using Guid(c0bec6a40db1a314fa4c100dc7e770a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241e2f4bf1cdb7a51c7e152fcaad3979') in 0.010470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.285372 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.002146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.855685 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.002264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.254176 seconds.
+  path: Assets/Res/森林/object components/environment/forest_border/forest_border02.fbx
+  artifactKey: Guid(dd4813e009b46bd4a81e9ccbcb1f465e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/forest_border/forest_border02.fbx using Guid(dd4813e009b46bd4a81e9ccbcb1f465e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395e92d47aa5d91c327b5fa838eec67') in 0.636006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/森林/object components/structures/well_wodden/well_wodden.mat
+  artifactKey: Guid(4a6b27528f878e049844f2086e3bab15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/structures/well_wodden/well_wodden.mat using Guid(4a6b27528f878e049844f2086e3bab15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a316ad0e351e3e9883b48d441dc37a97') in 0.186665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/森林/object components/environment/flowers/wildflowers.mat
+  artifactKey: Guid(6c639c71394d11849b5ebaecaf441ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/flowers/wildflowers.mat using Guid(6c639c71394d11849b5ebaecaf441ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354dbc7e8fda151a5bb21570a045270f') in 0.010801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Res/森林/object components/environment/weeds/weeds_green.mat
+  artifactKey: Guid(8485f953f4dec2249b634208022d1990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/weeds/weeds_green.mat using Guid(8485f953f4dec2249b634208022d1990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b65cb8796d7cc86181e0c46c2be0dc') in 0.012378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/森林/object components/environment/forest_border/forest_border01.fbx
+  artifactKey: Guid(bc03707aadcaf5b4fb6406020513fa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/forest_border/forest_border01.fbx using Guid(bc03707aadcaf5b4fb6406020513fa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a93dd5f15f3aca803fae00cd473c2d8') in 0.051188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/森林/object components/usables/tent/tent.fbx
+  artifactKey: Guid(1314a08df0a193741aaaa305efc72d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/tent/tent.fbx using Guid(1314a08df0a193741aaaa305efc72d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708a99a426bc150ffb0c15733a0cf4f4') in 0.021393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Res/森林/object components/environment/forest_border/forest_entrance.fbx
+  artifactKey: Guid(c19f9e6b6bdedd449a573977ccf59f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/forest_border/forest_entrance.fbx using Guid(c19f9e6b6bdedd449a573977ccf59f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547afa13ebfa7e4e5bdb88820259da8d') in 0.044231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Res/森林/object components/structures/well_stone/well_stone.mat
+  artifactKey: Guid(3c18bc1cd29e68b4fb5d4f547b43dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/structures/well_stone/well_stone.mat using Guid(3c18bc1cd29e68b4fb5d4f547b43dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6fd460b0ee2476bfc8dad4d583c7f6') in 0.012430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/森林/object components/environment/forest_border/forest_border04.fbx
+  artifactKey: Guid(2dbca66867a8d1c4886b8778351926ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/forest_border/forest_border04.fbx using Guid(2dbca66867a8d1c4886b8778351926ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ad5cfdec21297bfaa169b43d6808f7') in 0.047362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Yellow.mat
+  artifactKey: Guid(b470276ef34e64aa49cf718cefbe5173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Yellow.mat using Guid(b470276ef34e64aa49cf718cefbe5173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c942eee2048ca646892ae788d02af7') in 0.013792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_5.mat
+  artifactKey: Guid(4922c7fe51af94858b8f0957b272f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_5.mat using Guid(4922c7fe51af94858b8f0957b272f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6791b98e815fbab0f9acb83a5d690a2d') in 0.012295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_WhiteEgg.mat
+  artifactKey: Guid(7c644a9f69c274ed4a9f9a9f52461562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_WhiteEgg.mat using Guid(7c644a9f69c274ed4a9f9a9f52461562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2935ccb65e0cec02c451ad378fb1cd') in 0.011108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Orange.mat
+  artifactKey: Guid(182ef1f56fd6748479c5bcd0e564c994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Orange.mat using Guid(182ef1f56fd6748479c5bcd0e564c994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100e8a21fad05f77b63d1d7c14c093d0') in 0.009607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/森林/object components/usables/sign/sign.mat
+  artifactKey: Guid(382a1eddce131024595eacf8e5e1c2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/sign/sign.mat using Guid(382a1eddce131024595eacf8e5e1c2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b1030ad499b0752f408842406f7d2') in 0.009018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Pizza/Material_Pizza_TopGround.mat
+  artifactKey: Guid(a9828656fa4f14972916987bc3d75f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Pizza/Material_Pizza_TopGround.mat using Guid(a9828656fa4f14972916987bc3d75f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8232f486d9d6c98f6532c63c1973e5d') in 0.010653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Orange.mat
+  artifactKey: Guid(de5c2e4a5998048bcb05aaa417c1e02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Orange.mat using Guid(de5c2e4a5998048bcb05aaa417c1e02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aaf401c230ff29eb2c68c1e5748e61') in 0.010649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Yellow.mat
+  artifactKey: Guid(c3ae7065de66949a2ba824473073729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Yellow.mat using Guid(c3ae7065de66949a2ba824473073729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329235fada69ab716d50279ec06ca3f6') in 0.011156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Hot Dog/Material_HotDog_Bred.mat
+  artifactKey: Guid(0994feb43b3714803bfe5e256b6c05ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Hot Dog/Material_HotDog_Bred.mat using Guid(0994feb43b3714803bfe5e256b6c05ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b54b52bf630e7f1b5cc8db920ccc697') in 0.010424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/森林/skybox/hdri/sb_greenwich.mat
+  artifactKey: Guid(3639b5977ee4f2f4c82d629b40690362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/skybox/hdri/sb_greenwich.mat using Guid(3639b5977ee4f2f4c82d629b40690362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4e48946abbd5506e82be0054a344b') in 0.041125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Green.mat
+  artifactKey: Guid(ee4569ecd23844a54b5bcd52d95b4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Green.mat using Guid(ee4569ecd23844a54b5bcd52d95b4d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba74112578bdfc936522d58d05f583f2') in 0.011005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/森林/object components/structures/fence/trunk_fence.mat
+  artifactKey: Guid(8945bc4e61502cb46ad8c8530c0700fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/structures/fence/trunk_fence.mat using Guid(8945bc4e61502cb46ad8c8530c0700fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bf2ce03c16bdf34b284c3a1a809038') in 0.010686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/森林/object components/usables/cooking/twigs_cooking.mat
+  artifactKey: Guid(374d74daf396acd4da2ecfdcaf59bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/cooking/twigs_cooking.mat using Guid(374d74daf396acd4da2ecfdcaf59bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65982cbf1ea53ad6ce48432dd266fcbb') in 0.010027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/森林/object components/environment/weeds/weeds_brown.mat
+  artifactKey: Guid(66c1d664ed62cba4c8383326f4866482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/weeds/weeds_brown.mat using Guid(66c1d664ed62cba4c8383326f4866482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae60f626da0deb63843370fd86da1cd') in 0.009606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Res/森林/object components/environment/river/rivergrass.mat
+  artifactKey: Guid(420b2f9110c801443ac6971b203f978d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/river/rivergrass.mat using Guid(420b2f9110c801443ac6971b203f978d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2252174b81f2a1fc27952244c808004') in 0.011177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Res/森林/object components/environment/tree_leaves_big/tree_leaves_large.fbx
+  artifactKey: Guid(b5b603f703893e649b4dc45745999f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/tree_leaves_big/tree_leaves_large.fbx using Guid(b5b603f703893e649b4dc45745999f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4848cba5234c046e2eda5b079461a073') in 0.029424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/森林/object components/environment/river/river_grass.mat
+  artifactKey: Guid(b5fe4ad293616eb40891f262a7451981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/river/river_grass.mat using Guid(b5fe4ad293616eb40891f262a7451981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68f681c2c41386e7050f5ec3f8a68bb') in 0.009647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_SausageDetails.mat
+  artifactKey: Guid(e6087f9f108f848fa814f5b12f5ae8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_SausageDetails.mat using Guid(e6087f9f108f848fa814f5b12f5ae8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea2a2b36733512c7e0652bbe5881359') in 0.011002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Pizza/Material_Pizza_Ground.mat
+  artifactKey: Guid(e80d19bc332a249a6bf793283b43c4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Pizza/Material_Pizza_Ground.mat using Guid(e80d19bc332a249a6bf793283b43c4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0638e42176c8308c1baac67f60a7f8') in 0.010394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Turquoise.mat
+  artifactKey: Guid(93361e91ef79144b39b6f2d9e8fa4a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Turquoise.mat using Guid(93361e91ef79144b39b6f2d9e8fa4a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabd4ec21010dcce751784ecc42a63ab') in 0.011498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Red.mat
+  artifactKey: Guid(8d93f6d10cd37428aa735356d6402d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Red.mat using Guid(8d93f6d10cd37428aa735356d6402d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e0946d8126e8c017e7625eb3536fdb') in 0.010234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Res/森林/skybox/hdri/sb_epping.mat
+  artifactKey: Guid(72398e9dfd3a3674baa2f4e3f38c657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/skybox/hdri/sb_epping.mat using Guid(72398e9dfd3a3674baa2f4e3f38c657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2902573ca0c3ab31e3b460c8c1bcea') in 0.012854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Res/粒子火/Materials/triangleAlphaMat.mat
+  artifactKey: Guid(9590e58d66b8f054abd97666fdcdc4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/粒子火/Materials/triangleAlphaMat.mat using Guid(9590e58d66b8f054abd97666fdcdc4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4550de2b7e74f4354c9733215fc2559d') in 0.035230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_flower.fbx
+  artifactKey: Guid(14b3a52492217ee42a73f5dd5095af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_flower.fbx using Guid(14b3a52492217ee42a73f5dd5095af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e116785ba821f99ba6011734e1bcf04') in 0.017621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_bush.fbx
+  artifactKey: Guid(5d7eeef802b91904c835c92dca1e6dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_bush.fbx using Guid(5d7eeef802b91904c835c92dca1e6dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c8e1ebda2606f0df688cc9b83a6869') in 0.019797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_field_03.fbx
+  artifactKey: Guid(50a1fc99d3ae88943b821a274a762265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_field_03.fbx using Guid(50a1fc99d3ae88943b821a274a762265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f603a4b24f7a9da681ff07b63b35fd5') in 0.018974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_02.fbx
+  artifactKey: Guid(febc131a8646dd844a9f749476ae9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_02.fbx using Guid(febc131a8646dd844a9f749476ae9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c3a6d4899a684fec2fe1bff5d56e5') in 0.018485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_04.fbx
+  artifactKey: Guid(97a83e0dcb489b64c92b236583f2d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_04.fbx using Guid(97a83e0dcb489b64c92b236583f2d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b390a0a8d9af6bfcc92505ff09d92ea2') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_field_02.fbx
+  artifactKey: Guid(c3cb68549103ec14d9cb57f3cb47ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_field_02.fbx using Guid(c3cb68549103ec14d9cb57f3cb47ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee656b417c8569192750c757f0ed29d') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Res/森林/ground textures/ground_grass.mat
+  artifactKey: Guid(ad27c25d66fd9d84599e34e51f041947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/ground_grass.mat using Guid(ad27c25d66fd9d84599e34e51f041947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e04d0d66d5bc53f4789cf9dca0df634') in 0.010895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_01.fbx
+  artifactKey: Guid(713ad7cd866c2d44ca1f57d51b86aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_01.fbx using Guid(713ad7cd866c2d44ca1f57d51b86aa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65762f0653f22bffc88956d0ad0494f0') in 0.235831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Other/Grass.mat
+  artifactKey: Guid(cbd0e0139039cae44b8cca2704f055af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Other/Grass.mat using Guid(cbd0e0139039cae44b8cca2704f055af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cd054d43d2263b208dccde04b4910e') in 0.224713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass.mat
+  artifactKey: Guid(e6fccf79bc813e6408ee59cbdfa50249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass.mat using Guid(e6fccf79bc813e6408ee59cbdfa50249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab87d80d01af2d515590b8020e8dcabb') in 0.009877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/森林/object components/environment/flowers/wildflower01.fbx
+  artifactKey: Guid(a337984f459944144ba6e22854b91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/flowers/wildflower01.fbx using Guid(a337984f459944144ba6e22854b91b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cbb7f0e9a820f7fa3b60d6380242b7') in 0.027587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Res/森林/object components/environment/weeds/weeds.fbx
+  artifactKey: Guid(11b41cb0f1318924c83db71b16440b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/weeds/weeds.fbx using Guid(11b41cb0f1318924c83db71b16440b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2684ce6d7efaaaf15f0615626ac07e') in 0.020310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/森林/object components/environment/logs/wooden planks.mat
+  artifactKey: Guid(45f4d3949bab3b740a19f6bf65d7a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/logs/wooden planks.mat using Guid(45f4d3949bab3b740a19f6bf65d7a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4ad48095b9f2de047306f114bbcfe7') in 0.010557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/森林/object components/environment/gras/grass_03.fbx
+  artifactKey: Guid(862d7694f9fc62c4eb6a97f883f2b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/gras/grass_03.fbx using Guid(862d7694f9fc62c4eb6a97f883f2b4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0803e5a4c23cfcbc4c9f5721fecf43') in 0.020397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_EggYolk.mat
+  artifactKey: Guid(444bb88eae9904dfe93c17baef36ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Egg and sausage with frying pan/Material_EggSausageFryingPan_EggYolk.mat using Guid(444bb88eae9904dfe93c17baef36ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e83e7575551b0541b937517fc7978a') in 0.011001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/森林/object components/environment/river/water.mat
+  artifactKey: Guid(6b5ecce170dda0749896b09972ca6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/river/water.mat using Guid(6b5ecce170dda0749896b09972ca6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d841c8d301c5e14cdd7ed31f8ae057c') in 0.188621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/森林/object components/environment/flowers/wildflower02.fbx
+  artifactKey: Guid(d252f7e5255705d41836d3429bc238ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/flowers/wildflower02.fbx using Guid(d252f7e5255705d41836d3429bc238ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eaa757997cd3d7db52db06c86354b1') in 0.029086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Green.mat
+  artifactKey: Guid(d9a70e1511e69450baccbb8f040f355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Green.mat using Guid(d9a70e1511e69450baccbb8f040f355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d514ca02684e1f35559917378dc79b0') in 0.010886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Turquoise.mat
+  artifactKey: Guid(4c57c38f39a874f128f05baeff439b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Front_Turquoise.mat using Guid(4c57c38f39a874f128f05baeff439b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb31d96a4864c0dc86a9a9563807514') in 0.010450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Hot Dog/Material_HotDog_Sausage.mat
+  artifactKey: Guid(512da8da022724f5bb7eeadfc8b73d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/Hot Dog/Material_HotDog_Sausage.mat using Guid(512da8da022724f5bb7eeadfc8b73d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae4cfabea928c7b92394d77a1a34c69') in 0.010554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Res/森林/object components/environment/tree_leaves_big/tree_leaves_big.mat
+  artifactKey: Guid(98e928dc651636448b22206014ccfbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/tree_leaves_big/tree_leaves_big.mat using Guid(98e928dc651636448b22206014ccfbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f42fd1e90b56ee18d9217f6d89958bb') in 0.010810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Red.mat
+  artifactKey: Guid(5ceb3b64584294a11a82c11ff24aa97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/食物/Low Poly Fast Food/Assets/Materials/French Fries/Material_FrenchFries_Packaging_Rear_Red.mat using Guid(5ceb3b64584294a11a82c11ff24aa97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb018b575030f66f6fa997101da1216') in 0.010976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.108042 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Characters/F08.mat
+  artifactKey: Guid(21de3b57a01b3cc4c9791d95217e9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Characters/F08.mat using Guid(21de3b57a01b3cc4c9791d95217e9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8fdc04a00d57714204a9d6c60e9151') in 0.060105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/森林/object components/environment/logs/log_03.fbx
+  artifactKey: Guid(fca21fdd16e2268429059038b30c3c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/logs/log_03.fbx using Guid(fca21fdd16e2268429059038b30c3c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da417f48566d58fc5c48b7d725e27513') in 0.034360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/森林/ground textures/ground_dry.mat
+  artifactKey: Guid(3c7e859f5b8dd90458f1b7cecb42c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/ground_dry.mat using Guid(3c7e859f5b8dd90458f1b7cecb42c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465b5d9529b9769351e58dbf6feca1f') in 0.010607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Res/森林/object components/environment/river/rivergrass.fbx
+  artifactKey: Guid(98a44608be26c844ea8cea6335930d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/river/rivergrass.fbx using Guid(98a44608be26c844ea8cea6335930d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1f8830cd82249728b82c1889a612c0') in 0.023317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Hair08_v2.mat
+  artifactKey: Guid(432522da1b6339246ac822b5b00480e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Hair08_v2.mat using Guid(432522da1b6339246ac822b5b00480e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e5cb17b58f420b119b06e0587f1d47') in 0.109761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/森林/object components/usables/tools/hammer_stone.mat
+  artifactKey: Guid(4b91da9e72273314c9a5d5dd7dd4338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/tools/hammer_stone.mat using Guid(4b91da9e72273314c9a5d5dd7dd4338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e6b2c23a1306ee78386b21396c1b3e') in 0.010427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/森林/object components/usables/campfire/campfire_stone.fbx
+  artifactKey: Guid(0962e245441579544aec8ad627019b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/campfire/campfire_stone.fbx using Guid(0962e245441579544aec8ad627019b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec38729824b9b175b05e35691cf672') in 0.051365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Res/森林/object components/usables/phial/phial.fbx
+  artifactKey: Guid(e5cd9dfbef9789445ab379886aa4bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/phial/phial.fbx using Guid(e5cd9dfbef9789445ab379886aa4bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6397164f0a7ce2c67b455b4d317427') in 0.036117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Res/森林/object components/structures/well_wodden/well_wooden.fbx
+  artifactKey: Guid(ab5f7f89438e9684c8787dfb8ad3e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/structures/well_wodden/well_wooden.fbx using Guid(ab5f7f89438e9684c8787dfb8ad3e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0069f8434b6737a5e4c7226bf99dce') in 0.023793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Res/森林/object components/usables/tools/hammer.fbx
+  artifactKey: Guid(f8af66dcd04d3d44c85003e249b38355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/tools/hammer.fbx using Guid(f8af66dcd04d3d44c85003e249b38355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12e795bce22665c1b018dc9251bf06d') in 0.023480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Res/森林/object components/structures/fence/fence.mat
+  artifactKey: Guid(0f1be42e9fcc46044981d55769a301cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/structures/fence/fence.mat using Guid(0f1be42e9fcc46044981d55769a301cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a233f55a7efc0d5c16eea02d941cfd') in 0.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Face/face04.mat
+  artifactKey: Guid(85afecc7d3d8f3f45bd378a6f8f81856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Face/face04.mat using Guid(85afecc7d3d8f3f45bd378a6f8f81856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7f8a193a2075000f1abfe0233800dc') in 0.043578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Res/森林/object components/usables/campfire/campfire_straw.fbx
+  artifactKey: Guid(4fe89e91ddc0e9941b6003b953ef1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/campfire/campfire_straw.fbx using Guid(4fe89e91ddc0e9941b6003b953ef1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468d92c364b67c51f2b2111dacce1a7c') in 0.043375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/森林/ground textures/ground_cave.mat
+  artifactKey: Guid(6f17c9eda0857a640967349449b423bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/ground_cave.mat using Guid(6f17c9eda0857a640967349449b423bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86859248fc23b757151afca1b0889e6e') in 0.011603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Res/森林/object components/usables/straw/straw_bush.fbx
+  artifactKey: Guid(5188cf805d8bbfa47bf19cdb003570a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/straw/straw_bush.fbx using Guid(5188cf805d8bbfa47bf19cdb003570a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d293abbf1af97620f3585f74891283c') in 0.023983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Res/森林/object components/environment/river/rivergrass_flower.fbx
+  artifactKey: Guid(14402266496b3434fa89c302299105b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/river/rivergrass_flower.fbx using Guid(14402266496b3434fa89c302299105b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fb13820c8778a3e8ade6e702d79d82') in 0.020522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Res/森林/object components/environment/hole/hole.mat
+  artifactKey: Guid(c3a299b32cf0c2a478f80c8517e8edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/hole/hole.mat using Guid(c3a299b32cf0c2a478f80c8517e8edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2393939408479d8366de4f511d4477cd') in 0.009313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Hair08_v3.mat
+  artifactKey: Guid(c606b590b830d9e4c8eb71557892f5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Hair08_v3.mat using Guid(c606b590b830d9e4c8eb71557892f5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7192a732f54941605f744ce3825db2') in 0.012822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/森林/object components/usables/tools/scythe.fbx
+  artifactKey: Guid(c7120a419f03e2e4abf2efd0e85bc89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/tools/scythe.fbx using Guid(c7120a419f03e2e4abf2efd0e85bc89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae76fefd50ff170b6221bf10a3ecb435') in 0.020746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/森林/ground textures/ground_dirt.mat
+  artifactKey: Guid(c3d36887f0b584f429932b6ba2bf64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/ground_dirt.mat using Guid(c3d36887f0b584f429932b6ba2bf64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebf90a7ea173a95f00a04b9cbc8fcc0') in 0.009979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Weapon/Hoefork.mat
+  artifactKey: Guid(6766e6879db4d2947b6cd23036e38fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Weapon/Hoefork.mat using Guid(6766e6879db4d2947b6cd23036e38fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bce2c2fdf64367e6616b51660ea9d8a') in 0.010471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Res/森林/object components/environment/river/rivergrass_flowers.fbx
+  artifactKey: Guid(5e6be925a9b7f2243b0588a1fe29c702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/river/rivergrass_flowers.fbx using Guid(5e6be925a9b7f2243b0588a1fe29c702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f4dddeafadd9a1943b04b663c58912') in 0.021247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/森林/object components/environment/logs/log_01.fbx
+  artifactKey: Guid(5347509b16669f34fa770fcf198f1631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/logs/log_01.fbx using Guid(5347509b16669f34fa770fcf198f1631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7217d2a667248d6006499fd2217759') in 0.020577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/森林/object components/usables/phial/glass.mat
+  artifactKey: Guid(9ec73f4315783c8409d69891874cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/phial/glass.mat using Guid(9ec73f4315783c8409d69891874cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0f797e580c16a7f81c8d844f1471a6') in 0.184418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/森林/object components/usables/tools/hammer_wooden.mat
+  artifactKey: Guid(f4f82bf8c99c400459aaae41009f1b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/tools/hammer_wooden.mat using Guid(f4f82bf8c99c400459aaae41009f1b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb12386ebcd6a9bfe90327e1f85c199a') in 0.009811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Hair08.mat
+  artifactKey: Guid(f3040a475a2ca5d4390b8c6ede7933a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Skin&Hair&Face/Hair08.mat using Guid(f3040a475a2ca5d4390b8c6ede7933a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1e462398dccc3ae9d2c461469ecf2d') in 0.012365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/森林/object components/usables/straw/straw_bundle.fbx
+  artifactKey: Guid(99bd3e32b27404646b40df6eb43c7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/usables/straw/straw_bundle.fbx using Guid(99bd3e32b27404646b40df6eb43c7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c81d8c14c7b4c54884595837a911cdb') in 0.020913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Res/森林/object components/environment/logs/log_02.fbx
+  artifactKey: Guid(78a9888e4869ec2458c06fb714bcf9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/object components/environment/logs/log_02.fbx using Guid(78a9888e4869ec2458c06fb714bcf9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01da66a50a3bfc9f16286b93a618bb22') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Characters/F08_v3.mat
+  artifactKey: Guid(38f848c9b2e390f4b95d38a9f09422c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Characters/F08_v3.mat using Guid(38f848c9b2e390f4b95d38a9f09422c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef2d5e880ddf3af490a495178899c5') in 0.012340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Materials/Characters/F08_v2.mat
+  artifactKey: Guid(3ae97c569113b114ca206de0e7160818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Materials/Characters/F08_v2.mat using Guid(3ae97c569113b114ca206de0e7160818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0549bad4ddcb0248d32ab0d2bf9e0b50') in 0.011126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.657569 seconds.
+  path: Assets/Res/森林/ground textures/cracks.png
+  artifactKey: Guid(7db0feb3c4b30244fb8863ca08a201ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/cracks.png using Guid(7db0feb3c4b30244fb8863ca08a201ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceea1373c1d4c31847526c7a46acaa7') in 0.019966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/森林/ground textures/NewLayer 7.terrainlayer
+  artifactKey: Guid(1c45a6dd706c1434181feb4df85ceef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/NewLayer 7.terrainlayer using Guid(1c45a6dd706c1434181feb4df85ceef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed05117c330eaf8b05b0a4e79bc5e9ff') in 0.018984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Res/森林/ground textures/NewLayer 9.terrainlayer
+  artifactKey: Guid(7f3d2624ead8b944a8738979bff1d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/NewLayer 9.terrainlayer using Guid(7f3d2624ead8b944a8738979bff1d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e99c30ffb49d7c7651831cbce04b328') in 0.010296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/森林/ground textures/NewLayer 5.terrainlayer
+  artifactKey: Guid(8a37b7352dd33fb45ad65c2cb848e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/NewLayer 5.terrainlayer using Guid(8a37b7352dd33fb45ad65c2cb848e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73d11a531a75cd1a65d24ed3e1c7d56') in 0.008674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/森林/ground textures/grass.png
+  artifactKey: Guid(8698c373a614a8f44950b4a735020101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/grass.png using Guid(8698c373a614a8f44950b4a735020101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3873036ed1fb70e3ab01fec6055a0bbe') in 0.012131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Res/森林/ground textures/dirt.png
+  artifactKey: Guid(9bf807984243def4f80d42e3edfab605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/dirt.png using Guid(9bf807984243def4f80d42e3edfab605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8224164f10cbab55faf1814103245e') in 0.009588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/森林/ground textures/NewLayer 2.terrainlayer
+  artifactKey: Guid(cc2063a979ed0cc4b938d05297d5ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/森林/ground textures/NewLayer 2.terrainlayer using Guid(cc2063a979ed0cc4b938d05297d5ff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5ca288285bfb4972b056f949fae677') in 0.010585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.380395 seconds.
+  path: Assets/Res/玩家/Animations/Anim@Alert.fbx
+  artifactKey: Guid(558aec41da94b5e45b7956e95c4516e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@Alert.fbx using Guid(558aec41da94b5e45b7956e95c4516e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6276a53318b24d6e4455a6003f294a8e') in 0.010506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/玩家/Animations/Anim@Die2.fbx
+  artifactKey: Guid(7ec33b338c1e07f40a6757106561f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@Die2.fbx using Guid(7ec33b338c1e07f40a6757106561f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e016e14395077131e687b80ea3384a7') in 0.010086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Res/玩家/Animations/Anim@Block.fbx
+  artifactKey: Guid(bf8ccd59d1c3fa7409a41b7be5927d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@Block.fbx using Guid(bf8ccd59d1c3fa7409a41b7be5927d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4ab0ebb2d01ab7302d7118d81bdf09') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/玩家/Animations/Anim@ATK4.fbx
+  artifactKey: Guid(6e7f96b5c5df8814b98d21a4916bb379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@ATK4.fbx using Guid(6e7f96b5c5df8814b98d21a4916bb379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba21d3a016ddced26caf44fb2b4b4b') in 0.010461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Res/玩家/Animations/Anim@ATK2.fbx
+  artifactKey: Guid(e9c5add18fadf164a9f5e656dea581d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@ATK2.fbx using Guid(e9c5add18fadf164a9f5e656dea581d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27455e47e041a0cf82159dab89ade720') in 0.008474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Res/玩家/Animations/Anim@ATK1.fbx
+  artifactKey: Guid(b879d93f6ad2e3d4681e180c8716daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@ATK1.fbx using Guid(b879d93f6ad2e3d4681e180c8716daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c358c86d35ea5bec40bbc8aab20ea') in 0.009889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/玩家/Animations/Anim@Die1.fbx
+  artifactKey: Guid(a8b700e4a0e5fbc4495cf90ef5f9df69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@Die1.fbx using Guid(a8b700e4a0e5fbc4495cf90ef5f9df69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5adf6d4939d49d8397a207ad4e890e') in 0.009196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Res/玩家/Animations/Anim@ATK3.fbx
+  artifactKey: Guid(33d4723e91ac65349a8675586772685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@ATK3.fbx using Guid(33d4723e91ac65349a8675586772685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bdc5b6efd8d803245b2e9b80367e13') in 0.008432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/玩家/Animations/Anim@Damage.fbx
+  artifactKey: Guid(ac29e9bcf21909e41b7c204690bdd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@Damage.fbx using Guid(ac29e9bcf21909e41b7c204690bdd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe73eacf17b432652b7eb6a49134b06f') in 0.010469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/玩家/Animations/Anim@Dash.fbx
+  artifactKey: Guid(939fdd14cb0e8f642a24801fa194f350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Animations/Anim@Dash.fbx using Guid(939fdd14cb0e8f642a24801fa194f350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f539c3ccdd2979df2f9cea94c1b7878b') in 0.010415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.912917 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Prefab/F08.prefab
+  artifactKey: Guid(ed5872ac483cb044d8d8cb0a8e686c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Prefab/F08.prefab using Guid(ed5872ac483cb044d8d8cb0a8e686c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd008fdc395ccd4607fda24d0d6e8e5') in 0.087933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Prefab/Hoefork.prefab
+  artifactKey: Guid(66ee1a287605b244b83dd8148cf0e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Prefab/Hoefork.prefab using Guid(66ee1a287605b244b83dd8148cf0e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843da322714dc8c79bda377fe0564c0f') in 0.011697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Prefab/F08_v3.prefab
+  artifactKey: Guid(03fa9d9f2e08dec40b774122b8dffe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Prefab/F08_v3.prefab using Guid(03fa9d9f2e08dec40b774122b8dffe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c916f2dd91f2087378b772665c6b57') in 0.041634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Prefab/Hoe.prefab
+  artifactKey: Guid(8c8d59a4e66d5cb4293455a645d612a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Prefab/Hoe.prefab using Guid(8c8d59a4e66d5cb4293455a645d612a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2908839e8d18df6ad775db53725a8d3') in 0.010304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Res/玩家/Farmer Girl SD/Prefab/F08_v2.prefab
+  artifactKey: Guid(19cb0ecf31924b745b73c080dd137730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/玩家/Farmer Girl SD/Prefab/F08_v2.prefab using Guid(19cb0ecf31924b745b73c080dd137730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae47d2f070fbd7b9c31cf3d08406a129') in 0.040302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.308263 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.002467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.555373 seconds.
+  path: Assets/C
+  artifactKey: Guid(eab6d5f429ed86b4ea93b61eba8f2b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/C using Guid(eab6d5f429ed86b4ea93b61eba8f2b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca69f82a8f32a5d21940b3fdf34272') in 0.002943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.729199 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(eab6d5f429ed86b4ea93b61eba8f2b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(eab6d5f429ed86b4ea93b61eba8f2b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3b07d01a9542bd88a5f1595d368271') in 0.002010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.116051 seconds.
+  path: Assets/Scripts/Camera_Controller.cs
+  artifactKey: Guid(7659cacc720805d4a836583081eb1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera_Controller.cs using Guid(7659cacc720805d4a836583081eb1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bbb28738da42599df8b92eabeda5e7') in 0.020198 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1792ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (948ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (74ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (77ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.7 KB). Loaded Objects now: 3889.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 4.129600 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.172200 ms MarkObjects: 3.510400 ms  DeleteObjects: 0.169500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1238ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.8 KB). Loaded Objects now: 3892.
+Memory consumption went from 140.9 MB to 140.9 MB.
+Total: 3.067100 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.166700 ms MarkObjects: 2.500900 ms  DeleteObjects: 0.093700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1172ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (883ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.7 KB). Loaded Objects now: 3895.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.250000 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.248200 ms MarkObjects: 2.568900 ms  DeleteObjects: 0.088900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005608 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.6 KB). Loaded Objects now: 3898.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 2.963300 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.385700 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.8 KB). Loaded Objects now: 3901.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.227900 ms (FindLiveObjects: 0.258900 ms CreateObjectMapping: 0.144200 ms MarkObjects: 2.734800 ms  DeleteObjects: 0.089000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.8 KB). Loaded Objects now: 3904.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.452800 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.159900 ms MarkObjects: 2.947200 ms  DeleteObjects: 0.086600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004066 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.8 KB). Loaded Objects now: 3907.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 4.840100 ms (FindLiveObjects: 0.419000 ms CreateObjectMapping: 0.319700 ms MarkObjects: 3.776800 ms  DeleteObjects: 0.322800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004106 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.8 KB). Loaded Objects now: 3910.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.103300 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.154000 ms MarkObjects: 2.602100 ms  DeleteObjects: 0.087600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1138ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.7 KB). Loaded Objects now: 3913.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 4.017700 ms (FindLiveObjects: 0.483900 ms CreateObjectMapping: 0.258300 ms MarkObjects: 3.153200 ms  DeleteObjects: 0.120900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004563 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Game-Project-1\Don not Starve Study Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1315ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1018ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.7 KB). Loaded Objects now: 3916.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 4.368700 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.196000 ms MarkObjects: 3.763300 ms  DeleteObjects: 0.102800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
